@@ -1,0 +1,20 @@
+.todo-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 70px;
+}
+
+.todo-list-item.done h2 {
+  text-decoration: line-through;
+}
+
+.todo-list-item h2 {
+  position: relative;
+  display: block;
+  color: inherit;
+  cursor: pointer;
+
+
+}
+

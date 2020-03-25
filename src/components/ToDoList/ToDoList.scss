@@ -1,0 +1,24 @@
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 50px auto 0;
+  padding: 0;
+  max-width: 1300px;
+  background-color: white;
+  border-radius: 10px;
+  list-style: none;
+  min-height: 65vh;
+}
+
+.todo-list.light li {
+  color: #2b2937;
+}
+
+.todo-list.dark {
+  background-color: #252330;
+}
+
+.todo-list.dark li {
+  color: white;
+}
